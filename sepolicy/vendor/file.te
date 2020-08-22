@@ -1,9 +1,7 @@
 # file.te
 
 # ROOT
-# /keydata /keyrefuge /omr /dqmdbg /optics /prism
-type keydata_data_file, file_type;
-type keyrefuge_data_file, file_type;
+# /dqmdbg /omr /optics /prism
 type omr_file, file_type;
 type dqmdbg_file, file_type;
 type optics_file, file_type;
