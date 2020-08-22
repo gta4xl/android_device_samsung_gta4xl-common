@@ -105,9 +105,6 @@ BOARD_ROOT_EXTRA_FOLDERS := \
     optics \
     metadata
 
-BOARD_ROOT_EXTRA_SYMLINKS := \
-    /mnt/vendor/efs:/efs/efs
-
 ### VENDOR
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
