@@ -102,8 +102,10 @@ BOARD_ROOT_EXTRA_FOLDERS := \
     dqmdbg \
     omr \
     prism \
-    optics \
-    metadata
+    optics
+
+# /metadata
+BOARD_USES_METADATA_PARTITION := true
 
 ### VENDOR
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
