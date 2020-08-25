@@ -34,7 +34,4 @@ def AddImage(info, basename, dest):
 def OTA_InstallEnd(info):
   info.script.Print("Flashing dtbo image...")
   AddImage(info, "dtbo.img", "/dev/block/bootdevice/by-name/dtbo")
-  info.script.Print("Flashing vbmeta image...")
-  AddImage(info, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
-  info.script.AppendExtra('package_extract_file("%s", "%s");' % ('vbmeta.img', '/dev/block/bootdevice/by-name/vbmeta_samsung'))
   return
