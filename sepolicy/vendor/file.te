@@ -6,3 +6,9 @@ type omr_file, file_type;
 type dqmdbg_file, file_type;
 type optics_file, file_type;
 type prism_file, file_type;
+
+# DATA
+type display_vendor_data_file, file_type, data_file_type;
+
+# SYSFS
+type sysfs_bt_writable, sysfs_type, rw_fs_type, fs_type;
