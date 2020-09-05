@@ -56,30 +56,6 @@
             "ResetOnInit": true
         },
         {
-            "Name": "GPUMaxFreq",
-            "Path": "/sys/kernel/gpu/gpu_max_clock",
-            "Values": [
-                "572000",
-                "683000",
-                "764000",
-                "1053000"
-            ],
-            "HoldFd": true,
-            "DefaultIndex": 0,
-            "ResetOnInit": true
-        },
-        {
-            "Name": "GPUMinFreq",
-            "Path": "/sys/kernel/gpu/gpu_min_clock",
-            "Values": [
-                "839000",
-                "572000",
-                "260000"
-            ],
-            "HoldFd": true,
-            "ResetOnInit": true
-        },
-        {
             "Name": "TASchedtuneBoost",
             "Path": "/dev/stune/top-app/schedtune.boost",
             "Values": [
@@ -319,12 +295,6 @@
             "Value": "0x0013d620"
         },
         {
-            "PowerHint": "SUSTAINED_PERFORMANCE",
-            "Node": "GPUMaxFreq",
-            "Duration": 0,
-            "Value": "683000"
-        },
-        {
             "PowerHint": "VR_MODE",
             "Node": "PowerHALMainState",
             "Duration": 0,
@@ -341,18 +311,6 @@
             "Node": "PowerHALRenderingState",
             "Duration": 0,
             "Value": "EXPENSIVE_RENDERING"
-        },
-        {
-            "PowerHint": "EXPENSIVE_RENDERING",
-            "Node": "GPUMinFreq",
-            "Duration": 0,
-            "Value": "839000"
-        },
-        {
-            "PowerHint": "EXPENSIVE_RENDERING",
-            "Node": "GPUMaxFreq",
-            "Duration": 0,
-            "Value": "1053000"
         },
         {
             "PowerHint": "NOT_INTERACTIVE",
