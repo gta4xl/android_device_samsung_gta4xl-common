@@ -146,8 +146,6 @@ TARGET_SCREEN_DENSITY := 240
 ### GRAPHICS
 # hardware/interfaces/configstore/1.1/default/surfaceflinger.mk
 NUM_FRAMEBUFFER_SURFACE_BUFFERS := 3
-TARGET_HAS_HDR_DISPLAY := true
-TARGET_HAS_WIDE_COLOR_DISPLAY := true
 
 ### HIDL
 DEVICE_MANIFEST_FILE += $(PLATFORM_PATH)/manifest.xml
