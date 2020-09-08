@@ -54,7 +54,7 @@ OVERRIDE_RS_DRIVER := libRSDriverArm.so
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/hardware/include
 
 ### KERNEL
-TARGET_KERNEL_SOURCE = kernel/samsung/exynos9611/
+TARGET_KERNEL_SOURCE = kernel/samsung/gta4xl/
 TARGET_KERNEL_CLANG_COMPILE := true
 
 BOARD_CUSTOM_BOOTIMG         := true
