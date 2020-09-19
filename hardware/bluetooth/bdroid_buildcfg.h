@@ -17,9 +17,6 @@
 #ifndef _BDROID_BUILDCFG_H
 #define _BDROID_BUILDCFG_H
 
-#ifndef _BDROID_BUILDCFG_H
-#define _BDROID_BUILDCFG_H
-
 #pragma push_macro("PROPERTY_VALUE_MAX")
 
 #define BTM_DEF_LOCAL_NAME "Galaxy Tab S6 Lite"
@@ -34,6 +31,5 @@
 #define BTA_AV_SINK_INCLUDED TRUE
 
 #pragma pop_macro("PROPERTY_VALUE_MAX")
-#endif
 
 #endif /* _BDROID_BUILDCFG_H */
