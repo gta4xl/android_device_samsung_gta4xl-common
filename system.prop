@@ -16,3 +16,25 @@ lockscreen.rot_override=true
 ### WIFI
 wifi.direct.interface=p2p0
 ro.boot.wificountrycode=00
+
+# Free up RAM by purging assets.
+persist.sys.purgeable_assets=1
+
+# Better RAM management
+ro.HOME_APP_ADJ=1
+
+# Low memory device
+ro.config.low_ram=true
+
+# Force high-end graphics in low ram mode
+persist.sys.force_highendgfx=true
+
+# Reduce background apps limit to 16 on low-tier devices
+ro.sys.fw.bg_apps_limit=16
+
+# Set max background services
+ro.config.max_starting_bg=4
+
+# Multiuser
+fw.max_users=4
+fw.show_multiuserui=1
