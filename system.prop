@@ -17,9 +17,6 @@ lockscreen.rot_override=true
 wifi.direct.interface=p2p0
 ro.boot.wificountrycode=00
 
-# Free up RAM by purging assets.
-persist.sys.purgeable_assets=1
-
 # Force high-end graphics in low ram mode
 persist.sys.force_highendgfx=true
 
